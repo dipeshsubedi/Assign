@@ -1,0 +1,76 @@
+\doxysection{test.\+Bank\+Account Class Reference}
+\hypertarget{classtest_1_1_bank_account}{}\label{classtest_1_1_bank_account}\index{test.BankAccount@{test.BankAccount}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtest_1_1_bank_account_a79845a9f7aa2d029e778464dc36cb981}\label{classtest_1_1_bank_account_a79845a9f7aa2d029e778464dc36cb981} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, account\+\_\+holder, initial\+\_\+balance=0.\+0)
+\item 
+\mbox{\hyperlink{classtest_1_1_bank_account_a4e68d8fd92640dfbe8d3187cdac58572}{deposit}} (self, amount)
+\item 
+\mbox{\hyperlink{classtest_1_1_bank_account_ac8e89070df1320fe8653c1631750d87c}{withdraw}} (self, amount)
+\item 
+\mbox{\hyperlink{classtest_1_1_bank_account_add5bbb11b3f93adbfa437289d0ee26f8}{get\+\_\+balance}} (self)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtest_1_1_bank_account_a2f3ae6583a5363db87ead184e1f81dda}\label{classtest_1_1_bank_account_a2f3ae6583a5363db87ead184e1f81dda} 
+{\bfseries account\+\_\+holder}
+\item 
+\Hypertarget{classtest_1_1_bank_account_a699f8ee3853da2a12ef0dd52b65983c6}\label{classtest_1_1_bank_account_a699f8ee3853da2a12ef0dd52b65983c6} 
+{\bfseries balance}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Represents a bank account.
+
+Attributes:
+    account_holder (str): Name of the account holder.
+    balance (float): Current balance of the account.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classtest_1_1_bank_account_a4e68d8fd92640dfbe8d3187cdac58572}\label{classtest_1_1_bank_account_a4e68d8fd92640dfbe8d3187cdac58572} 
+\index{test.BankAccount@{test.BankAccount}!deposit@{deposit}}
+\index{deposit@{deposit}!test.BankAccount@{test.BankAccount}}
+\doxysubsubsection{\texorpdfstring{deposit()}{deposit()}}
+{\footnotesize\ttfamily test.\+Bank\+Account.\+deposit (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{amount }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Deposits amount into the account.
+
+@param amount The deposit amount.
+@return Updated balance.
+
+@throws ValueError if amount <= 0.
+\end{DoxyVerb}
+ \Hypertarget{classtest_1_1_bank_account_add5bbb11b3f93adbfa437289d0ee26f8}\label{classtest_1_1_bank_account_add5bbb11b3f93adbfa437289d0ee26f8} 
+\index{test.BankAccount@{test.BankAccount}!get\_balance@{get\_balance}}
+\index{get\_balance@{get\_balance}!test.BankAccount@{test.BankAccount}}
+\doxysubsubsection{\texorpdfstring{get\_balance()}{get\_balance()}}
+{\footnotesize\ttfamily test.\+Bank\+Account.\+get\+\_\+balance (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Retrieves the current balance.
+
+@return Current balance as a float.
+\end{DoxyVerb}
+ \Hypertarget{classtest_1_1_bank_account_ac8e89070df1320fe8653c1631750d87c}\label{classtest_1_1_bank_account_ac8e89070df1320fe8653c1631750d87c} 
+\index{test.BankAccount@{test.BankAccount}!withdraw@{withdraw}}
+\index{withdraw@{withdraw}!test.BankAccount@{test.BankAccount}}
+\doxysubsubsection{\texorpdfstring{withdraw()}{withdraw()}}
+{\footnotesize\ttfamily test.\+Bank\+Account.\+withdraw (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{amount }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Withdraws amount from the account.
+
+@param amount The withdrawal amount.
+@return Updated balance.
+
+@throws ValueError if amount <= 0 or if amount exceeds balance.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test.\+py\end{DoxyCompactItemize}

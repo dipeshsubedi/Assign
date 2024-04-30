@@ -1,0 +1,76 @@
+\doxysection{test.\+Student Class Reference}
+\hypertarget{classtest_1_1_student}{}\label{classtest_1_1_student}\index{test.Student@{test.Student}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtest_1_1_student_a483195be185bc98826ca46ed58e6f327}\label{classtest_1_1_student_a483195be185bc98826ca46ed58e6f327} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, name, student\+\_\+id, grades=None)
+\item 
+\mbox{\hyperlink{classtest_1_1_student_a16cd7eab7e8db4053f89f65513fd12a5}{average}} (self)
+\item 
+\mbox{\hyperlink{classtest_1_1_student_a397c1452f7c0a7075748d072bc1503e3}{is\+\_\+passing}} (self, threshold=60)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtest_1_1_student_a54d5f38121b842cda2a24f08dbc3a001}\label{classtest_1_1_student_a54d5f38121b842cda2a24f08dbc3a001} 
+{\bfseries name}
+\item 
+\Hypertarget{classtest_1_1_student_af52b65d04fa79a045aa2a48f5d51e000}\label{classtest_1_1_student_af52b65d04fa79a045aa2a48f5d51e000} 
+{\bfseries student\+\_\+id}
+\item 
+\Hypertarget{classtest_1_1_student_a619ebc1efaefda583a29869f6822761d}\label{classtest_1_1_student_a619ebc1efaefda583a29869f6822761d} 
+{\bfseries grades}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classtest_1_1_student_a8bca78506574d118ca90e7fc9525b0a4}{\+\_\+validate\+\_\+grades}} (self)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Represents a student.
+
+Attributes:
+    name (str): The name of the student.
+    student_id (int): The ID of the student.
+    grades (list): A list of numeric grades.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classtest_1_1_student_a8bca78506574d118ca90e7fc9525b0a4}\label{classtest_1_1_student_a8bca78506574d118ca90e7fc9525b0a4} 
+\index{test.Student@{test.Student}!\_validate\_grades@{\_validate\_grades}}
+\index{\_validate\_grades@{\_validate\_grades}!test.Student@{test.Student}}
+\doxysubsubsection{\texorpdfstring{\_validate\_grades()}{\_validate\_grades()}}
+{\footnotesize\ttfamily test.\+Student.\+\_\+validate\+\_\+grades (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}@brief Validates that grades are within the acceptable range (0-100).
+\end{DoxyVerb}
+ \Hypertarget{classtest_1_1_student_a16cd7eab7e8db4053f89f65513fd12a5}\label{classtest_1_1_student_a16cd7eab7e8db4053f89f65513fd12a5} 
+\index{test.Student@{test.Student}!average@{average}}
+\index{average@{average}!test.Student@{test.Student}}
+\doxysubsubsection{\texorpdfstring{average()}{average()}}
+{\footnotesize\ttfamily test.\+Student.\+average (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calculates the average grade.
+
+@return The average grade or None if no grades.
+\end{DoxyVerb}
+ \Hypertarget{classtest_1_1_student_a397c1452f7c0a7075748d072bc1503e3}\label{classtest_1_1_student_a397c1452f7c0a7075748d072bc1503e3} 
+\index{test.Student@{test.Student}!is\_passing@{is\_passing}}
+\index{is\_passing@{is\_passing}!test.Student@{test.Student}}
+\doxysubsubsection{\texorpdfstring{is\_passing()}{is\_passing()}}
+{\footnotesize\ttfamily test.\+Student.\+is\+\_\+passing (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{threshold = {\ttfamily 60} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Checks if the student is passing.
+
+@param threshold The minimum passing grade (default 60).
+@return True if average grade >= threshold, otherwise False.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test.\+py\end{DoxyCompactItemize}

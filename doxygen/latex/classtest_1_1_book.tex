@@ -1,0 +1,65 @@
+\doxysection{test.\+Book Class Reference}
+\hypertarget{classtest_1_1_book}{}\label{classtest_1_1_book}\index{test.Book@{test.Book}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtest_1_1_book_a1d3746fcee3618d1a769ff0e45434fd6}\label{classtest_1_1_book_a1d3746fcee3618d1a769ff0e45434fd6} 
+{\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, title, author, pages)
+\item 
+\mbox{\hyperlink{classtest_1_1_book_a1caad83552dc67e782f3eae650ce8991}{summary}} (self)
+\item 
+\mbox{\hyperlink{classtest_1_1_book_a2bcc28916baa0accfe925b529bdefe20}{reading\+\_\+time}} (self, pages\+\_\+per\+\_\+hour)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classtest_1_1_book_a00853fc1eadf8acee29a3e22d45adc8c}\label{classtest_1_1_book_a00853fc1eadf8acee29a3e22d45adc8c} 
+{\bfseries title}
+\item 
+\Hypertarget{classtest_1_1_book_acc406cba31405df5644c4f01e4474a71}\label{classtest_1_1_book_acc406cba31405df5644c4f01e4474a71} 
+{\bfseries author}
+\item 
+\Hypertarget{classtest_1_1_book_aa56ed1cf49af4501ad0c29d7cdc99942}\label{classtest_1_1_book_aa56ed1cf49af4501ad0c29d7cdc99942} 
+{\bfseries pages}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@brief Represents a book.
+
+Attributes:
+    title (str): The title of the book.
+    author (str): The author of the book.
+    pages (int): The number of pages in the book.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classtest_1_1_book_a2bcc28916baa0accfe925b529bdefe20}\label{classtest_1_1_book_a2bcc28916baa0accfe925b529bdefe20} 
+\index{test.Book@{test.Book}!reading\_time@{reading\_time}}
+\index{reading\_time@{reading\_time}!test.Book@{test.Book}}
+\doxysubsubsection{\texorpdfstring{reading\_time()}{reading\_time()}}
+{\footnotesize\ttfamily test.\+Book.\+reading\+\_\+time (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{pages\+\_\+per\+\_\+hour }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calculates estimated reading time.
+
+@param pages_per_hour Pages the reader can read per hour.
+@return Estimated reading time in hours.
+
+@throws ValueError if pages_per_hour is non-positive.
+\end{DoxyVerb}
+ \Hypertarget{classtest_1_1_book_a1caad83552dc67e782f3eae650ce8991}\label{classtest_1_1_book_a1caad83552dc67e782f3eae650ce8991} 
+\index{test.Book@{test.Book}!summary@{summary}}
+\index{summary@{summary}!test.Book@{test.Book}}
+\doxysubsubsection{\texorpdfstring{summary()}{summary()}}
+{\footnotesize\ttfamily test.\+Book.\+summary (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Returns a summary of the book.
+
+@return A string containing the book title and author.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test.\+py\end{DoxyCompactItemize}
